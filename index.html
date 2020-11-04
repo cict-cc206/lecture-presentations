@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CICT CC 206 Lecture/Presentations</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .grid-item {
+            width: 20%;
+        }
+    </style>
+</head>
+
+<body class="p-20 bg-gray-100">
+    <img class="w-20 mb-8" src="icon.jpg" alt="Logo">
+    <h1 class="text-xl">Lecture Contents</h1>
+    <hr />
+    <div class="container p-8">
+        <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}'>
+            <div class="rounded overflow-hidden shadow-lg bg-white grid-item m-4">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2">Emerging Technologies as of 2020.</div>
+                    <p class="text-gray-700 text-base">
+                        Spoiler alert: Your teacher only picked the top three.
+                    </p>
+                </div>
+                <div class="px-6 py-4">
+                    <a class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+                        href="emerging-techonologies-2020/">Open</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+</body>
+
+</html>
